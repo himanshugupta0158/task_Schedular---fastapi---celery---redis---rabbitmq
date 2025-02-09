@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+redis
+celery
+pydantic

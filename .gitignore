@@ -1,0 +1,71 @@
+# Python related files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+
+# Virtual environment
+venv/
+.env
+.envrc
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# MacOS / Windows related files
+.DS_Store
+Thumbs.db
+
+# VSCode / JetBrains / Other IDE files
+.vscode/
+.idea/
+*.iml
+
+# Docker related files
+docker-compose.override.yml
+*.pid
+*.sock
+*.log
+*.db
+
+# Ignore local Redis data (if persisted)
+redis-data/
+
+# Ignore local RabbitMQ data (if persisted)
+rabbitmq-data/
+
+# Flask and compiled cache
+instance/
+*.sqlite3
+*.db
+migrations/
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+*.cover
+.cache
+nosetests.xml
+coverage.xml
+
+# Ignore Python packaging files
+*.egg
+*.manifest
+*.spec
+
+# Ignore worker-generated files
+*.pid
+celerybeat-schedule
